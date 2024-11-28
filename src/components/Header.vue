@@ -6,6 +6,7 @@
 </template>
 
 <script>
+import { RouterLink } from 'vue-router';
 // import logo from '@/assets/transparentLogo.png';
 </script>
 
