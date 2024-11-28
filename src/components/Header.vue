@@ -1,12 +1,8 @@
 <template>
     <div class ='header'>
-        <!-- <img :src="logo" class="logo" alt="Logo">
-            <div> -->
-                <button class="language-btn">English</button>
-                <button>Sign In</button>
-                <button>Sign Out</button>
-            </div>
-    <!-- </div> -->
+        <RouterLink to='/Sign In' class="button"></RouterLink>
+        <RouterLink to='/Sign Out' class="button"></RouterLink>
+    </div>
 </template>
 
 <script>
@@ -17,7 +13,7 @@
     .header{
         width: 100%;
         height: auto;
-        background:rgba(78, 25, 20, 0.7), url(@/assets/Background.png);
+        background:rgba(78, 25, 20, 0.7), url('src/assets/img/transparentLogo.png');
         background-size: cover;
         background-position: center;
         padding: 10px 8%;
