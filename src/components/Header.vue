@@ -1,24 +1,16 @@
 <template>
     <div class ='header'>
-        <img :src="logo" class="logo" alt="Logo">
-            <div>
+        <!-- <img :src="logo" class="logo" alt="Logo">
+            <div> -->
                 <button class="language-btn">English</button>
                 <button>Sign In</button>
                 <button>Sign Out</button>
             </div>
-    </div>
+    <!-- </div> -->
 </template>
 
 <script>
-import logo from '@/assets/transparentLogo.png';
-export default {
-  // No need to define data, just return the imported logo
-  computed: {
-    logo() {
-      return logo;
-    }
-  }
-};
+// import logo from '@/assets/transparentLogo.png';
 </script>
 
 <style scoped>
