@@ -4,3 +4,10 @@
         <a href="mailto:sophia@miao.fm">sophia@miao.fm</a></p>
     </div>
 </template>
+
+<style>
+.footer{
+    justify-content: center;
+    align-items: center;
+}
+</style>
