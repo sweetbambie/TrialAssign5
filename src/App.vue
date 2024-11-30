@@ -1,12 +1,11 @@
 <script setup>
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
+import { RouterView } from 'vue-router';
 </script>
 
 <template>
-
+  <Suspense>
+    <RouterView />
+  </Suspense>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
