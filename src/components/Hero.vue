@@ -3,13 +3,13 @@
     <div class="hero-content">
         <h1>Nitche Feminine Movies, Shows, and more.</h1>
         <h3>Watch anytime and anywhere.</h3>
-        <p>Ready to watch? Type in your email to create your account.</p>
     </div>
-    <img src="/src/assets/Background.png" class="Hero"/>
+    <!-- <img src="/src/assets/Background.png" class="Hero"/> -->
 </template>
 
 <style>
 .hero-content {
+    background-image: linear-gradient(rgba(78, 25, 20, 0.7),rgba(78,25,20,0.7)),url('/src/assets/Background.png');
     font-size: 20px;
     position: absolute;
     top: 50%;
